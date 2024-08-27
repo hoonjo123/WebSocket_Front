@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 import "./MessageContainer.css";
 import { Container } from "@mui/system";
 
@@ -20,6 +21,7 @@ const MessageContainer = ({ messageList, user }) => {
               <div className="your-message-container">
                 <img
                   src="/profile.jpeg"
+                  alt="User profile"
                   className="profile-image"
                   style={
                     (index === 0
