@@ -41,6 +41,7 @@ function App() {
       socket.emit("sendMessage", message, (res) => {
         console.log("sendMessage res", res);
       });
+      setMessage("");
     }
   };
 
